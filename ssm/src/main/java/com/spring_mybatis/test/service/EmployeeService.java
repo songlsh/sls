@@ -21,10 +21,10 @@ public class EmployeeService {
     @Autowired
     private SqlSessionTemplate sqlSessionTemplate;
 
-//    public List<Employee> findAll(){
-//
-//        return employeeDao.selectAll();
-//    }
+    public List<Employee> findAll(){
+
+        return employeeDao.selectAll();
+    }
 
     public void mutipate(){
         SqlSession sqlSession = sqlSessionTemplate.getSqlSessionFactory().openSession(ExecutorType.BATCH,false);

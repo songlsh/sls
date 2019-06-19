@@ -22,12 +22,12 @@ public class EmployeeController {
     @RequestMapping("/goView")
     public String goEmp(Model model){
 
-       // PageHelper.startPage(1,5);
-        //List<Employee> list = employeeService.findAll();
-       // model.addAttribute("emplist",list);
-//        for (Employee emp:list) {
-//          System.out.println(emp);
-//        }
+        PageHelper.startPage(1,5);
+        List<Employee> list = employeeService.findAll();
+        model.addAttribute("emplist",list);
+        for (Employee emp:list) {
+          System.out.println(emp);
+        }
       employeeService.mutipate();
       return "emp";
     }
