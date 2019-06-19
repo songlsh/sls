@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/aop
+     http://www.springframework.org/schema/aop/spring-aop.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--//增加掃描-->
+    <context:component-scan base-package="aspectj"/>
+    <!--//aspectj 自動代理-->
+    <aop:aspectj-autoproxy/>
+    <!--注入對象-->
+    <bean id = "user" class="aspectj.User">
+        <constructor-arg name="name" value="dd"/>
+        <constructor-arg name="age" value="12"/>
+    </bean>
+    <bean id = "userDao" class="aspectj.dao.imp.UserDaoImpl"/>
+    <!--注入切面類-->
+    <bean  id = "ado" class="aspectj.aspectjDao.ADao"/>
+
+    <aop:config>
+        <aop:aspect ref="ado">
+            <aop:before method="modUser" pointcut="execution(* aspectj.dao.imp.UserDaoImpl.add(..)) and args(user)"/>
+            <aop:after-returning method="returnUser" pointcut="execution(* aspectj.dao.imp.UserDaoImpl.add(..))"/>
+            <aop:around method="onlyId" pointcut="execution(* aspectj.dao.imp.UserDaoImpl.find(..))"/>
+            <aop:declare-parents types-matching="aspectj.dao.UserDao+" implement-interface="aspectj.service.Service"
+                                 default-impl="aspectj.service.imp.ServiceImp"/>
+        </aop:aspect>
+
+    </aop:config>
+
+
+</beans>

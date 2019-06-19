@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.test.dao.DepartDao">
+
+
+
+    <resultMap id="mydept" type="com.mybatis.test.bean.Department">
+
+        <id column="id" property="id"/>
+        <result column="dept_name" property="deptName"/>
+        <result property="location" column="location"/>
+        <collection property="employeeList" ofType="com.mybatis.test.bean.Employee">
+            <id column="eid" property="id"/>
+            <result column="name" property="empname"/>
+            <result column="email" property="email"/>
+            <result column="general" property="general"/>
+        </collection>
+
+    </resultMap>
+    <select id="findOne"  resultMap="mydept">
+	   select d.id id,d.dept_name dept_name,d.location location,e.id eid,
+         e.name name,e.email email ,e.general general from tb_dept d left join tb_emp e on d.id = e.deptid where d.id=#{id}
+    </select>
+</mapper>

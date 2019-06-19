@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring_mybatis.test.dao.EmployeeDao">
+
+
+    <select id="findOne"  resultType="com.spring_mybatis.test.bean.Employee">
+        select id,name empname,email,general from tb_emp where id=#{id}
+
+    </select>
+
+</mapper>

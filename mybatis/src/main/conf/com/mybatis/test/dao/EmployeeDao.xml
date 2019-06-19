@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.test.dao.EmployeeDao">
+
+
+    <!--    returnMapObjects-->
+    <select id="returnMapObjects" resultType="map" >
+        <!-- select id,name empname,email,general from tb_emp where name like concat('%',#{name},'%')-->
+        select id,name empname,email,general from tb_emp where name like #{name}
+    </select>
+    <select id="returnList" resultType="com.mybatis.test.bean.Employee">
+        select id,name empname,email,general from tb_emp where name like concat('%',#{name},'%')
+    </select>
+
+    <select id="findOneObject"  resultType="com.mybatis.test.bean.Employee">
+        select id,name empname,email,general from tb_emp where id=#{id} and name like concat('%',#{param2.empname},'%')
+    </select>
+
+    <select id="findOne"  resultType="com.mybatis.test.bean.Employee">
+        select id,name empname,email,general from tb_emp where id=#{id} and name = #{name}
+         <!--select id,name empname,email,general from tb_emp where id =#{param1} and name = #{param2}-->
+
+    </select>
+
+    <!--
+        useGeneratedKeys="true"  tell mybatis use  generate keys
+        keyProperty="id"         give the value to the java bean object
+       -->
+    <!--addEmp    -->
+    <insert id="addEmp" parameterType="com.mybatis.test.bean.Employee" useGeneratedKeys="true" keyProperty="id">
+
+        insert into tb_emp(name,email,general) values(#{empname},#{email},#{general})
+    </insert>
+    <!-- findById   -->
+    <select id="findById" resultType="com.mybatis.test.bean.Employee">
+        select id,name empname,email,general from tb_emp where id = #{id}
+    </select>
+
+    <update id="modEmp" parameterType="com.mybatis.test.bean.Employee">
+        update tb_emp set name = #{empname} where id=#{id}
+    </update>
+</mapper>
