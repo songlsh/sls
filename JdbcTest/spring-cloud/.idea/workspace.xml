@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f160e16d-40f1-499f-adbb-07ba74ffb26a" name="Default Changelist" comment="springcloud练习">
+      <change afterPath="$PROJECT_DIR$/../Test/demo-service/src/main/java/spring/demoservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/demo-service/src/main/java/spring/demoservice/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/demo-service/src/main/java/spring/demoservice/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/demo-service/src/main/java/spring/demoservice/service/IUserServic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/demo-service/src/main/java/spring/demoservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice-item/microservice-item.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice-item/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice-order/microservice-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/com/sls/redisdemo/util/TwLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/src/main/java/com/example/eurekdemo/EurekDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/src/test/java/com/example/eurekdemo/EurekDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/target/classes/com/example/eurekdemo/EurekDemoApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurek-demo/target/test-classes/com/example/eurekdemo/EurekDemoApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/EurekaClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/example/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/target/classes/com/example/eurekaclient/EurekaClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client/target/test-classes/com/example/eurekaclient/EurekaClientApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/src/main/java/com/sls/spring_boot/BootProducor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/src/main/java/com/sls/spring_boot/Main_Productor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/src/main/java/com/sls/spring_boot/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboot/src/test/java/com/sls/spring_boot/TestBoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springbootconsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springbootconsumer/src/main/java/com/springboot/consumer/Consuemer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springbootconsumer/src/main/java/com/springboot/consumer/Main_Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springbootconsumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopic/src/main/java/springboottopic/Main_productor_topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopic/src/main/java/springboottopic/sls/config/TopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopic/src/main/java/springboottopic/sls/productor/TopicProductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopic/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopicconsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopicconsumer/src/main/java/com/Main_Consumer55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopicconsumer/src/main/java/com/Main_Consumer66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopicconsumer/src/main/java/com/consumer/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/springboottopicconsumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/MessageConsumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/MessageConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/com/sls/broker/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/spring/MyMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/spring/SpringConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/spring/SpringProductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/topic/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/topic/TopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/java/com/sls/topic/TopicProductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../activemq/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdk8_characteristic/src/main/java/sls/InterfaceDefualtMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jdk8_characteristic/src/main/java/sls/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/java/com/rqxy/shiro/ss/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/java/com/rqxy/shiro/ss/PasswordRealms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/java/com/rqxy/shiro/ss/PermissionRealms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/resources/Autor_Realm.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/resources/password.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/main/resources/permission.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro/src/test/java/com/rqxy/MD5General.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/bean/EmpRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/bean/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/bean/RequestName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/controller/DepartmentContrller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/service/EmployService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/shiroRelam/MyShiroRelams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/java/com/rqxy/shiro/util/MD5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/config/EmployeeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/config/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/config/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/shrio-ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/WEB-INF/views/department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/WEB-INF/views/employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/nopermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../shiro_web/src/main/webapp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/EmpEnmueTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/EmployStatue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/test/TestEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/src/main/java/com/sls/mvc/demo/dailyEx/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/src/main/java/com/sls/mvc/demo/dailyEx/SingleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/src/main/resources/config/DeptDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/mvc-demo/src/main/resources/config/EmpDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ssm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/zheng-upms-rpc-service.error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/zheng-upms-rpc-service.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../logs/zheng-upms-rpc-service.log.2019-06-02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis_spring1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mybatis_spring1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/springMvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springMvc/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/spring_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/emp-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/emp-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/mybatis/mapper/EmployeeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssm/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/emp_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/emp_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/target/tmp/jsp/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ssm/target/tmp/jsp/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../zheng-master/zheng-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../zheng-master/zheng-common/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-demo/target/" />
+    <ignored path="$PROJECT_DIR$/eurek-demo/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurek-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurek-demo/src/main/java/com/example/eurekdemo/EurekDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/EurekaClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurek-demo/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.9.RELEASE/spring-boot-maven-plugin-2.1.9.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/eurek-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eurek-demo/src/main/java/com/example/eurekdemo/EurekDemoApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/develop/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\repository\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="285" />
+    <option name="y" value="40" />
+    <option name="width" value="1319" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+    <configuration name="EurekDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurek-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekdemo.EurekDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f160e16d-40f1-499f-adbb-07ba74ffb26a" name="Default Changelist" comment="" />
+      <created>1572962737700</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572962737700</updated>
+      <workItem from="1572962741310" duration="946000" />
+      <workItem from="1572963703327" duration="2961000" />
+      <workItem from="1573366860520" duration="2295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6202000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.23185265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32855567" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springcloud练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud练习" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-demo/src/main/java/com/example/eurekademo/EurekaDemoApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-demo/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/eureka-demo/pom.xml" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.1.3.RELEASE/spring-cloud-starter-netflix-eureka-server-2.1.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurek-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurek-demo/src/main/java/com/example/eurekdemo/EurekDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurek-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.9.RELEASE/spring-boot-maven-plugin-2.1.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
