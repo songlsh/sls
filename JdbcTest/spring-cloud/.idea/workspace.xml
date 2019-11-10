@@ -32,33 +32,13 @@
       <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-cloud-demo/demo/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/src/main/java/com/example/eurekdemo/EurekDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurek-demo/src/test/java/com/example/eurekdemo/EurekDemoApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eurek-demo/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eurek-demo/target/classes/com/example/eurekdemo/EurekDemoApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eurek-demo/target/test-classes/com/example/eurekdemo/EurekDemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/example/eurekaclient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/test/java/com/example/eurekaclient/EurekaClientApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eureka-client/target/classes/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eureka-client/target/classes/com/example/eurekaclient/EurekaClientApplication.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/eureka-client/target/test-classes/com/example/eurekaclient/EurekaClientApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../activemq/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../activemq/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../activemq/.idea/misc.xml" afterDir="false" />
@@ -175,7 +155,6 @@
       <change beforePath="$PROJECT_DIR$/../../springMvc/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring_mybatis/spring_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/emp-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/emp-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/conf/mybatis/mapper/EmployeeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/dao/EmployeeDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring_mybatis/src/main/java/com/spring_mybatis/test/bean/Employee.java" afterDir="false" />
@@ -259,10 +238,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.9.RELEASE/spring-boot-maven-plugin-2.1.9.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-63" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eurek-demo/.mvn/wrapper/MavenWrapperDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -320,7 +311,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -376,17 +367,25 @@
       <updated>1572962737700</updated>
       <workItem from="1572962741310" duration="946000" />
       <workItem from="1572963703327" duration="2961000" />
-      <workItem from="1573366860520" duration="2295000" />
+      <workItem from="1573366860520" duration="2812000" />
     </task>
+    <task id="LOCAL-00001" summary="springcloud练习">
+      <created>1573369638569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573369638570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6202000" />
+    <option name="totallyTimeSpent" value="6719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -404,11 +403,11 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32855567" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -423,6 +422,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud练习" />
@@ -483,6 +492,16 @@
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-maven-plugin/2.1.9.RELEASE/spring-boot-maven-plugin-2.1.9.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurek-demo/.mvn/wrapper/MavenWrapperDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
