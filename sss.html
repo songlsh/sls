@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title></title>
+  <meta charset="utf-8" />
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+  <style type="text/css">
+    body {
+      font-size:13px;text-align:center;
+    }
+    div {
+      width:400px;border:1px solid #000000;
+      background-color:#f5e8e8;margin:100px 300px;
+      padding:10px;
+    }
+  </style>
+  <script type="text/javascript">
+    $(function () {
+　　　//多维数组做数据来源
+      let db = {
+        "1-腾讯": {
+          "1-LOL": "1-德玛,2-EZ瑞尔,3-剑圣",
+          "2-BNS": "4-气功师,5-力士,6-刺客,7-气宗师",
+          "3-DNF": ""
+        },
+       "2-阿里巴巴": {
+          APPLAY: "AsL,EsZ瑞尔,剑s圣",
+          HUABEI: "AsL,力s士,刺s客,气s宗师",
+          JIEBEI: "AsL,sB,sC,sD"
+        }, 
+        "3-百度": {
+          ggs: "BcD,EcZ瑞尔,剑c圣",
+          BD: "BcD,力c士,刺c客,气c宗师",
+          BDBD: "BcD,Bc,Cc,Dc",
+        }
+      };
+	initSelect(db);
+    })
+     function Init(node) {
+        return node.html("<option>---请选择---</option>");
+    }
+	function initSelect(db){
+	　　　//初始化select节点
+      $.each(db, function (first) {
+		let arr = first.split("-");
+        $("#selF").append("<option  value='"+ arr[0]+"'>" + arr[1] + "</option>");
+      })
+	changeSelect(db);
+	}
+	function changeSelect(db){
+		      //一级变动
+      $("#selF").change(function () {
+        //清空二三级
+        Init($("#selB"));
+        Init($("#selC"));
+        $.each(db,function (cs,pps) {
+		let firstSelected = cs.split("-");
+          if ($("#selF option:selected").val() == firstSelected[0]) {
+            $.each(pps, function (second, xhs) {
+			  let secIndex = second.split("-");
+              $("#selB").append("<option  value='"+ secIndex[0]+"'>" + secIndex[1] + "</option>");
+            });
+            $("#selB").change(function () {
+              Init($("#selC"));
+              $.each(pps, function (second,xhs) {
+				let secIndex = second.split("-");
+                if ($("#selB option:selected").val() == secIndex[0]) {
+                  $.each(xhs.split(','), function () {
+					if(this instanceof String && !this != null && this != ''){
+						 let three = this.split('-');
+						 $("#selC").append("<option  value='"+ three[0]+"'>" + three[1] + "</option>");
+					}
+                  })
+                }
+              })
+            })
+          }
+        })
+      })
+	}
+  </script>
+</head>
+<body>
+  <div class="bg-primary">
+    <hr />
+    企业：<select id="selF">
+        <option>---请选择---</option>  
+    </select>
+    产品：<select id="selB">
+        <option>---请选择---</option>  
+    </select>
+    嗯嗯：<select id="selC">
+        <option>---请选择---</option>  
+    </select>
+    <p id="pid"></p>
+  </div>
+</body>
+</html>
